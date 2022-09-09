@@ -10,7 +10,7 @@ public class Main {
         short anotherValue = -15937;    // values range from -32768 to 32767    16-bit
         int mostPopularValue = 42;      // values range from -2147483648 to 2147483647
                                         //                                      32-bit
-        long extremelyBigNum=-831L;      // values range from -9quintillion to 9quintillion
+        long extremelyBigNum =-831L;      // values range from -9quintillion to 9quintillion
                                         //                                      64-bit
 
 
@@ -22,10 +22,17 @@ public class Main {
                                             //              64-bit
 
         //boolean (true/false)
-
-        
+        boolean lightSwitch = true;         // only values of true or false
 
         //character data -- a SINGLE character
+
+        char singleCharacter = '#';         // unicode 65535    integers
+                                        //  'A' == 65       'a' == 97       '0' == 48
+                                        //  01000001        01100001        00110000
+
+        // Strings - collections of information between quotation marks
+
+        String schoolName = "Lubbock High School";
 
 
     }
